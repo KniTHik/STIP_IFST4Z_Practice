@@ -1,0 +1,44 @@
+<html>
+<body>
+<h1>Использоваание GET метода to Send Form Data</h1>
+<form action="ServletExample" method="GET">
+Имя: <input type="text" name="first_name">
+<br />
+Фамилия: <input type="text" name="last_name" />
+<!-- Начало - Обработка checkbox и radiobutton -->
+<br />
+<input type="radio" name="gender" value="Male" checked/>Мужской
+<br />
+<input type="radio" name="gender" value="Female"/>Женский
+<br/>
+<input type="checkbox" name="employee" checked="checked" /> Бомж
+<br/>
+<input type="checkbox" name="student" /> Ученик
+<br />
+<input type="checkbox" name="other" /> Чужой
+<br />
+<!-- Конец - Обработка checkbox и radiobutton -->
+<input type="submit" value="Обмен" />
+</form>
+<h1>Использование POST метода to Send Form Data</h1>
+<form action="ServletExample" method="POST">
+Имя: <input type="text" name="first_name">
+<br />
+Фамилия: <input type="text" name="last_name" />
+<!-- Начало - Обработка checkbox и radiobutton -->
+<br />
+<input type="radio" name="gender" value="Male" checked/>Мужской
+<br />
+<input type="radio" name="gender" value="Female"/>Женский
+<br />
+<input type="checkbox" name="employee" checked="checked" /> Бомж
+<br />
+<input type="checkbox" name="student" /> Ученик
+<br />
+<input type="checkbox" name="other" /> Чужой
+<br />
+<!-- Конец - Обработка checkbox и radiobutton -->
+<input type="submit" value="Обмен" />
+</form>
+</body>
+</html>
