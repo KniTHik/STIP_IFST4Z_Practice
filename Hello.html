@@ -1,44 +1,65 @@
 <html>
 <body>
-<h1>Использоваание GET метода to Send Form Data</h1>
+<h1>Using GET Method to Send Form Data</h1>
 <form action="ServletExample" method="GET">
-Имя: <input type="text" name="first_name">
+First Name: <input type="text" name="first_name">
 <br />
-Фамилия: <input type="text" name="last_name" />
+Last Name: <input type="text" name="last_name" />
 <!-- Начало - Обработка checkbox и radiobutton -->
 <br />
-<input type="radio" name="gender" value="Male" checked/>Мужской
+<input type="radio" name="gender" value="Male" checked/>Male
 <br />
-<input type="radio" name="gender" value="Female"/>Женский
+<input type="radio" name="gender" value="Female"/>Female
 <br/>
-<input type="checkbox" name="employee" checked="checked" /> Бомж
+<input type="checkbox" name="employee" checked="checked" /> Employee
 <br/>
-<input type="checkbox" name="student" /> Ученик
+<input type="checkbox" name="student" /> Student
 <br />
-<input type="checkbox" name="other" /> Чужой
+<input type="checkbox" name="other" /> Other
 <br />
 <!-- Конец - Обработка checkbox и radiobutton -->
-<input type="submit" value="Обмен" />
+<input type="submit" value="Submit" />
 </form>
-<h1>Использование POST метода to Send Form Data</h1>
+<h1>Using POST Method to Send Form Data</h1>
 <form action="ServletExample" method="POST">
-Имя: <input type="text" name="first_name">
+First Name: <input type="text" name="first_name">
 <br />
-Фамилия: <input type="text" name="last_name" />
+Last Name: <input type="text" name="last_name" />
 <!-- Начало - Обработка checkbox и radiobutton -->
 <br />
-<input type="radio" name="gender" value="Male" checked/>Мужской
+<input type="radio" name="gender" value="Male" checked/>Male
 <br />
-<input type="radio" name="gender" value="Female"/>Женский
+<input type="radio" name="gender" value="Female"/>Female
 <br />
-<input type="checkbox" name="employee" checked="checked" /> Бомж
+<input type="checkbox" name="employee" checked="checked" /> Employee
 <br />
-<input type="checkbox" name="student" /> Ученик
+<input type="checkbox" name="student" /> Student
 <br />
-<input type="checkbox" name="other" /> Чужой
+<input type="checkbox" name="other" /> Other
 <br />
 <!-- Конец - Обработка checkbox и radiobutton -->
-<input type="submit" value="Обмен" />
+<input type="submit" value="Submit" />
 </form>
+<h1>Welcome JSP</h1>
+<form action="welcome.jsp" method="POST">
+First Name: <input type="text" name="first_name">
+<br />
+Last Name: <input type="text" name="last_name" />
+<!-- Начало - Обработка checkbox и radiobutton -->
+<br />
+<input type="radio" name="gender" value="Male" checked/>Male
+<br />
+<input type="radio" name="gender" value="Female"/>Female
+<br />
+<input type="checkbox" name="employee" checked="checked" /> Employee
+<br />
+<input type="checkbox" name="student" /> Student
+<br />
+<input type="checkbox" name="other" /> Other
+<br />
+<!-- Конец - Обработка checkbox и radiobutton -->
+<input type="submit" value="Submit" />
+</form>
+
 </body>
 </html>
